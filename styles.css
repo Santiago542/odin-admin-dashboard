@@ -58,7 +58,7 @@ input {
 
 .sidebar {
     grid-row: 1 / -1;
-    padding: 20px;
+    padding: 10px 20px;
     background-color: #40a7df;
     color: #ffffff;
     font-weight: bold;
@@ -83,7 +83,7 @@ input {
 
 .header {
     grid-column: 2 / -1;
-    padding: 20px;
+    padding: 10px 20px;
     background-color: #e4f064;
     font-weight: bold;
     display: grid;
