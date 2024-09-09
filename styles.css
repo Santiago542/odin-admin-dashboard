@@ -12,6 +12,8 @@ body {
 }
 
 .white-icon {
+    width: 30px;
+    height: 30px;
     filter: invert(98%) sepia(2%) saturate(0%) hue-rotate(219deg) brightness(103%) contrast(102%);
 }
 
@@ -28,6 +30,10 @@ body {
     color: #ffffff;
     font-weight: bold;
     font-size: 1.3rem;
+    > div {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .container {
