@@ -11,6 +11,20 @@ body {
     grid-template-rows: 1fr 4fr;
 }
 
+.profile-picture-1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-picture-2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
 .white-icon {
     width: 25px;
     height: 25px;
@@ -71,6 +85,7 @@ input {
     grid-column: 2 / -1;
     padding: 20px;
     background-color: #e4f064;
+    font-weight: bold;
     display: grid;
     grid-template-columns: 1.3fr 1fr;
     grid-template-rows: 1fr 1fr;
