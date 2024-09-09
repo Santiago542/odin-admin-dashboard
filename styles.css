@@ -18,10 +18,34 @@ body {
     filter: invert(98%) sepia(2%) saturate(0%) hue-rotate(219deg) brightness(103%) contrast(102%);
 }
 
+.gray-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    filter: invert(28%) sepia(5%) saturate(364%) hue-rotate(177deg) brightness(97%) contrast(90%);
+}
+
+button {
+    background-color: #40a7df;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
 .sidebar {
     grid-row: 1 / -1;
     padding: 20px;
-    background-color: #64bff0;
+    background-color: #40a7df;
     color: #ffffff;
     font-weight: bold;
     font-size: 1rem;
@@ -47,6 +71,22 @@ body {
     grid-column: 2 / -1;
     padding: 20px;
     background-color: #e4f064;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    > div {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+    }
+    .profile, .buttons {
+        justify-content: flex-end;
+        gap: 10px;
+    }
+    .search, .welcome {
+        justify-content: flex-start;
+        gap: 10px;
+    }
 }
 
 .container {
