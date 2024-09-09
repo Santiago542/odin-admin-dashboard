@@ -64,7 +64,7 @@ input {
     font-weight: bold;
     font-size: 1rem;
     display: grid;
-    grid-template-rows: max-content 1fr 1fr;
+    grid-template-rows: max-content max-content 1fr;
     gap: 50px;
     > div > div {
         display: flex;
