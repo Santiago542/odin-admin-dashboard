@@ -116,10 +116,11 @@ input {
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 15px;
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.1);
     .projects {
         grid-row: span 2;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         grid-template-rows: max-content;
         gap: 15px;
         .title {
@@ -129,7 +130,7 @@ input {
     .announcements {
         grid-column: 2 / -1;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
         grid-template-rows: max-content;
         gap: 15px;
         .title {
@@ -139,7 +140,7 @@ input {
     .trending {
         grid-column: 2 / -1;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
         grid-template-rows: max-content;
         gap: 15px;
         .title {
@@ -182,6 +183,12 @@ input {
     justify-content: space-evenly;
     .notice > p {
         color: var(--gray-color);
+        padding-bottom: 15px;
+        border-bottom: 2px solid var(--gray-color);
+    }
+    :nth-child(3) > p{
+        border: none;  
+        margin: 0;
     }
 }
 
