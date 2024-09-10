@@ -93,6 +93,7 @@ input {
     display: grid;
     grid-template-columns: 1.3fr 1fr;
     grid-template-rows: 1fr 1fr;
+    box-shadow: inset 5px 0 10px rgba(0, 0, 0, 0.1);
     > div {
         display: flex;
         align-items: center;
