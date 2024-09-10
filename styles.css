@@ -11,7 +11,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 6fr;
     grid-template-rows: min-content 1fr;
 }
 
@@ -177,6 +177,9 @@ input {
     border: none;
     font-size: 0.8rem;
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     .notice > p {
         color: var(--gray-color);
     }
@@ -186,6 +189,9 @@ input {
     border: none;
     font-size: 0.8rem;
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     .profile {
         display: flex;
         align-items: center;
